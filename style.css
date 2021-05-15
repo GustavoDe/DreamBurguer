@@ -1,0 +1,132 @@
+*{
+    padding:0;
+    margin:0;
+    border:0;
+    box-sizing: border-box;
+    font-family: 'Reggae One', cursive;
+    color: white;
+}
+header{
+    color: #f4f21f;
+    height: 20%;
+    min-width: 100vh;
+    background-color: black;
+}
+.logo img{
+    height: 100px;
+    margin-left: 2%;
+}
+#navbar nav{
+    float: right;
+    margin-top: -7%;
+    margin-right:2%;
+}
+#navbar ul li {
+    display:inline;
+}
+#navbar a{
+    text-decoration: none;
+    color:#f4f21f
+}
+.background{
+    background: url(img/background.jpg);
+    background-repeat: no-repeat;
+    min-height:100vh;
+    min-width: 100vh;
+    display:flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+.background img{
+    height: 300px;
+}
+.background h2{
+    margin-top: -4%;
+    border: 2px solid #f4f21f;
+    background:black;
+    color:#f4f21f
+}
+main{
+    background: black;
+    min-height:60vh;
+    min-width: 100vh;
+}
+#sobre{
+    background: black;
+    color:#f4f21f;
+    min-height:60vh;
+    min-width: 100vh;
+    display:flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+#sobre img{
+    height: 300px;
+    margin-top:-8%;
+}
+#sobre h2{
+    margin-top:-6%;
+}
+#cardapio {
+    min-height: 100%;
+    min-width:100vh;
+    text-align: center;
+    width:100%;
+    padding-top: 2%;
+    color:white;
+}
+.flex {
+	display: flex;
+}
+
+.flex-wrap {
+	flex-wrap: wrap;
+}
+
+.flex-item-1 {
+	flex: 1;
+}
+
+/* Flex Item */
+.item {
+	margin: 5px;
+	background: black;
+	text-align: center;
+	font-size: 1.5em;
+    border: 1px solid #f4f21f;
+}
+
+.container {
+	max-width: 100%;
+	margin: 0 auto;
+	border: 1px solid #f4f21f;
+}
+.container h2{
+    font-size: 1.2rem;
+}
+button{
+
+    border: 1px solid rgb(224, 23, 23);
+    background:rgb(224, 23, 23);
+    border-radius:6px;
+    padding:2px;
+}
+#footer{
+    background: black;
+    min-height: 100%;
+    min-width:100vh;
+    text-align: center;
+    border: 1px solid #f4f21f
+}
+.if{
+    border: 1px solid #f4f21f;
+}
+.if img{
+    width:250px;
+}
+
+
+
+
